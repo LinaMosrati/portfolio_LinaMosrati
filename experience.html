@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Home</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <div class="nav-links" id="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="experience.html" class="nav-link">Experience</a>
+      <a href="skills.html" class="nav-link">Skills</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </div>
+  </nav>
+
+
+  <section class="experience">
+    <h2>My Experiences</h2>
+  
+    <div class="experience-container">
+      <!-- Experience 1: Internship at AMA GROUP -->
+      <div class="experience-item">
+        <img src="assets/src/ama.jpeg" alt="AMA GROUP" class="experience-img">
+        <div class="experience-details">
+          <h3>BIM Proficiency - Team Collaboration - Organization Skills</h3>
+          <h4>Internship at AMA GROUP (Construction and maintenance office in Tunis)</h4>
+          <p>January - February 2023</p>
+        </div>
+      </div>
+  
+      <!-- Experience 2: IoT Smart Parking Project -->
+      <div class="experience-item">
+        <img src="assets/src/iset.jpeg" alt="IoT Smart Parking Project" class="experience-img">
+        <div class="experience-details">
+          <h3>Smart Mobility - Parking Optimization - Resource Conservation</h3>
+          <h4>IoT Smart Parking Project (ISET RADES)</h4>
+          <p>March - May 2023</p>
+        </div>
+      </div>
+  
+      <!-- Experience 3: IEEE Xtreme Hackathon -->
+      <div class="experience-item">
+        <img src="assets/src/ieee.jpeg" alt="IEEE Xtreme Hackathon" class="experience-img">
+        <div class="experience-details">
+          <h3>Intense Problem-Solving - Skill Honing - Innovative Solutions</h3>
+          <h4>IEEE Xtreme Hackathon 17.0 (ISET RADES)</h4>
+          <p>28, 29 October 2023</p>
+        </div>
+      </div>
+  
+  
+      <!-- Experience 5: Internship at AMEN BANK -->
+      <div class="experience-item">
+        <img src="assets/src/amen.png" alt="Internship at AMEN BANK" class="experience-img">
+        <div class="experience-details">
+          <h3>Information Systems Alignment - Green-IT Strategies - Software Development</h3>
+          <h4>Internship at AMEN BANK (Tunis)</h4>
+          <p>January - February 2024</p>
+        </div>
+      </div>
+  
+  
+     
+    </div>
+  </section>
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById("nav-links");
+      navLinks.classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
